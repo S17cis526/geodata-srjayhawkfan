@@ -1,7 +1,7 @@
 "use strict;"
 
 // The port to serve on
-const PORT = 3000;
+const PORT = 3500;
 
 // global variables
 var fs = require('fs');
@@ -33,6 +33,10 @@ function serveFile(file, type, req, res) {
   });
 }
 
+function handleRequest(){
+
+
+}
 /** @function handleRequest
  * Handles incoming http requests
  * @param {http.incomingRequest} req - the request object
